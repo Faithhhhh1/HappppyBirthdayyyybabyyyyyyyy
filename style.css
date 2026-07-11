@@ -20,14 +20,13 @@ body {
 }
 
 .cursor {
-    width: 20px;
-    height: 20px;
-    background: pink;
-    border-radius: 50%;
     position: fixed;
     pointer-events: none;
-    mix-blend-mode: difference;
+    font-size: 24px;
+    z-index: 9999;
     transition: transform 0.2s;
+    transform: translate(-50%, -50%);
+    user-select: none;
 }
 
 .container {
